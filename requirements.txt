@@ -1,0 +1,9 @@
+torch==2.1.2
+transformers=4.40.1
+colorthief
+gradio==3.48.0
+pyparsing>=2.3.1
+jinja2
+paddlepaddle
+paddleocr==2.7.0.0
+num2words
