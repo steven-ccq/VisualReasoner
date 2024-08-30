@@ -2,9 +2,11 @@
 
 Official repository for the paper "From the Least to the Most: Building a Plug-and-Play Visual Reasoner via Data Synthesis"
 
+![](imgs/pipeline.png)
+
 ---
 
-## Setup
+## :gear: Setup
 
 ```bash
 git clone https://github.com/steven-ccq/VisualReasoner.git
@@ -37,7 +39,9 @@ Download the [adapter](https://drive.google.com/file/d/1NJpQuvMr2JS56j2qCZFOJ2L9
 
 Merge it with [llava-1.5-7b-hf](https://huggingface.co/llava-hf/llava-1.5-7b-hf) to obtain the Planner model.
 
-## Inference
+Rename the Planner model as `planner` and move it into `models/`.
+
+## :rocket: Inference
 
 First, download the corresponding test sets as guided in the `data/` directory.
 
@@ -67,7 +71,7 @@ The parameters used in the scripts are described in the table below:
 
 ---
 
-## Evaluation
+## :dart: Evaluation
 
 ```bash
 # TextVQA
@@ -80,7 +84,7 @@ https://rrc.cvc.uab.es/?ch=11
 python eval/eval_gqa.py --input=gqa.json
 ```
 
-## Data
+## :balloon: Data
 
 We also provide a 1M dataset synthesized using the least-to-most method, which includes both [profile](https://drive.google.com/file/d/1ayPyNUWkkkC1BzATlNKQm_l-ihlKMICe/view?usp=sharing) and [dataset](https://drive.google.com/file/d/14m_LxYkMChLLQm7bTYS3hR6YjmdXCyuX/view?usp=sharing) files.
 
