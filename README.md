@@ -86,4 +86,4 @@ python eval/eval_gqa.py --input=gqa.json
 
 ## :balloon: Data
 
-We also provide a 1M dataset synthesized using the least-to-most method. You can access this dataset through [VisualReasoner-1M](https://huggingface.co/datasets/orange-sk/VisualReasoner-1M). We also release a variant of this dataset, which contains 30k end-to-end reasoning processes. You can access this dataset through [VisualReasoner-30k](https://huggingface.co/datasets/orange-sk/VisualReasoner-30k).
+We also provide a 1M dataset synthesized using the least-to-most method. You can access this dataset through 🤗[VisualReasoner-1M](https://huggingface.co/datasets/orange-sk/VisualReasoner-1M). We also release a variant of this dataset, which contains 30k end-to-end reasoning processes. You can access this dataset through 🤗[VisualReasoner-30k](https://huggingface.co/datasets/orange-sk/VisualReasoner-30k).
