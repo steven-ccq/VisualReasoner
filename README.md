@@ -1,6 +1,6 @@
 # VisualReasoner
 
-Official repository for the paper "From the Least to the Most: Building a Plug-and-Play Visual Reasoner via Data Synthesis"
+Official repository for the EMNLP 2024 paper ["From the Least to the Most: Building a Plug-and-Play Visual Reasoner via Data Synthesis"](https://arxiv.org/abs/2406.19934)
 
 ![](imgs/pipeline.jpeg)
 
